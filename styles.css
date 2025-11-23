@@ -1,0 +1,47 @@
+body {
+  background: #8b6868;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#imcForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#imcForm input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #008cff;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
